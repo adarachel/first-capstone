@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./img/logo1.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla's Restaurants Conference</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="local.css"/>
+    <link rel="stylesheet" href="desktop.css" media="(min-width:768px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+<body class="flex-column-center">
+    <div class="header-right">
+        <ul class="header-right-ul">
+            <li><i class="fab fa-facebook-f light-grey upperside-item"></i></li>
+        <li><i class="fab fa-twitter light-grey upperside-item"></i></li>
+        <li><a href="#" class="logout light-grey upperside-item">Logout</a></li>
+        <li><a href="#" class="mypage light-grey upperside-item">Mypage</a></li>
+        <li><a href="#" class="korean light-grey upperside-item">Korean</a></li>
+    </ul>
+</div>
+<header class="bg-light-grey flex-column-center">
+    <nav>
+        <div class="nav-bg"></div>
+        <div class="light-black menu-open" onclick="openNav()">
+          <i class="fas fa-bars hamburger-menu"></i>
+        </div>
+        <div id="pageNav" class="overlay bg-light-black">
+          <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+   
+          <div class="overlay-display">
+            <a href="./index.html">Home</a>
+            <a href="#about-us" onclick="closeNav()">About Us</a>
+            <a href="#past-activities" onclick="closeNav()">Past Activities</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+          </div>
+        </div>
+        <div class="desktop-nav">
+          <a href="./index.html" class="site-logo"
+            ><img
+              src="./img/logo1.png"
+              alt="website logo"
+              class="site-logo-img"
+          /></a>
+          <ul class="navbar-ul">
+            <li>
+              <a href="./index.html" class="desktop-nav-link">Main Page</a>
+            </li>
+            <li>
+              <a href="#about-us" class="desktop-nav-link">About Us</a>
+            </li>
+            <li>
+              <a href="#past-activities" class="desktop-nav-link"
+                >Past Activities</a
+              >
+            </li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page-container">
+        <img src="./img/patterbg1.png" alt="Background image" class="header-img"/>
+        <img src="./img/patterbg1.png" alt="Background image" class="header-img-rotate"/>
+        <div class="homepage-content">
+          <div class="homepage-content-header flex-column-center">
+            <h1 class="text-color text-center">
+              PRISICILLA'S RESTAURANTS TRADE CONFERENCE
+            </h1>
+          </div>
+          <div class="header-paragraph-about text-center margin-top-big">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
+              illo! Rem cupiditate nemo minima voluptate laboriosam deserunt,
+              dignissimos quia incidunt id pariatur odit laborum sunt
+              reprehenderit labore blanditiis temporibus modi.
+            </p>
+          </div>
+          <div class="date-location-about">
+            <p class="location light-black text-center">
+              <br><br><i>Get in touch with us via Email!</i><br /><b>adarachelofficial@gmail.com</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about-page flex-column-center text-center" id="about">
+      <h2 class="about-page-title light-black heading-medium margin-top-big">
+        <br><br>About Us
+      </h2>
+      <hr class="divider-line text-center" />
+      <img src="./img/activity2.jpg" class="restauarant-img"/>
+      <div class="about-page-details">
+        <p class="about-page-paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id mollitia
+          magni enim ducimus repudiandae assumenda fugit dolorum doloribus
+          ratione dolor cum, fugiat consequatur quisquam quos deserunt amet illo
+          recusandae distinctio incidunt tenetur veritatis facilis excepturi
+          eum. Consectetur repellendus sunt, dolorum exercitationem maiores
+          optio architecto voluptates deserunt quia nemo quod magni.
+        </p>
+        <h4>
+          <br />
+          What do we promise to entrepreneurs and technology enthusiasts?
+        </h4>
+        <p>
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ipsa
+          ipsam explicabo eveniet iure reiciendis accusamus libero expedita ea
+          suscipit?
+        </p>
+      </div>
+      <hr class="full-divider-line" />
+    </section>
+    <section class="past-activities" id="past-activities">
+      <h2 class="past-activities-title light-black heading-medium">
+        Past Activities
+      </h2>
+      <hr class="divider-line text-center" />
+      <p class="past-activities-content light-black text-center">
+        Take a look at the last two years activities:
+      </p>
+      <div class="activities">
+        <div class="activity-one activity">
+          <div class="activity-content flex-column-center">
+            <h3>2020</h3>
+            <p>Prisicllas Restaurants Trade Fair</p>
+          </div>
+        </div>
+        <div class="activity-two activity">
+          <div class="activity-content flex-column-center">
+            <h3>2019</h3>
+            <p>Prisicllas Restaurants Trade Fair</p>
+          </div>
+        </div>
+      </div>
+      <hr class="full-divider-line" />
+    </section>
+    <footer class="footer flex-column-center" id="contact">
+        <h3 class="contact light-black heading-medium">Contact</h3>
+        <hr class="divider-line text-center" />
+        <div class="flex-row-center contact-details">
+          <img src="./img/logo1.png" alt="priscilla's restauarants logo" class="priscillas-logo"/>
+          <div class="contact-info">
+            <p class="phone-number"><b>Phone:</b> 78764498075</p>
+            <p class="address">
+              Fire Island.
+            Raine Colloway
+            34220 Fire Island, California.
+            </p>
+          </div>
+        </div>
+        <p class="copyright"><i class="far fa-copyright"></i>2021. All rights reserved</p>
+      </footer>
+    <script src="./aboutpage.js"></script>
+  </body>
+</html>

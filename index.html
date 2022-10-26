@@ -1,1 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo1.png" type="image/png"/>
+    <title>Priscilla's Restaurants Conference</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="local.css"/>
+    <link rel="stylesheet" href="desktop.css" media="(min-width:768px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+<body class="flex-column-center">
+    <div class="header-right">
+        <ul class="header-right-ul">
+            <li><i class="fab fa-facebook-f light-grey header-ul-item"></i></li>
+        <li><i class="fab fa-twitter light-grey header-ul-item"></i></li>
+        <li><a href="#" class="logout light-grey header-ul-item">English</a></li>
+        <li><a href="#" class="mypage light-grey header-ul-item">My Page</a></li>
+        <li><a href="#" class="korean light-grey header-ul-item">Logout</a></li>
+    </ul>
+</div>
+<header class="bg-light-grey flex-column-center">
+    <nav>
+        <div class="nav-bg"></div>
+        <div class="light-black menu-open" onclick="openNav()">
+          <i class="fas fa-bars hamburger-menu"></i>
+        </div>
+        <div id="pageNav" class="overlay bg-light-black">
+          <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+          <div class="overlay-display">
+            <a href="./aboutpage.html">About</a>
+            <a href="#main-program" onclick="closeNav()">Main Program</a>
+            <a href="#speakers" onclick="closeNav()">Speakers</a>
+            <a href="#partners" onclick="closeNav()">Partners</a>
+            <a href="#" onclick="closeNav()">Join the Program</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+          </div>
+        </div>
+        <div class="desktop-nav">
+          <a href="./index.html" class="site-logo">
+            <img src="./img/logo1.png" alt="website logo" class="site-logo-img"/>
+        </a>
+          <ul class="navbar-ul">
+            <li><a href="./aboutpage.html" class="desktop-nav-link">About</a></li>
+            <li>
+              <a href="#main-program" class="desktop-nav-link">Program</a>
+            </li>
+            <li><a href="#speakers" class="desktop-nav-link">Speakers</a></li>
+            <li><a href="#partners" class="desktop-nav-link">Partners</a></li>
+            <li><a href="#" class="desktop-nav-link">Join the Program</a></li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="page-container">
+        <img src="./img/patterbg1.png" alt="Background image" class="header-img"/>
+        <img src="./img/patterbg1.png" alt="Background image" class="header-img-rotate"/>
+        <div class="homepage-content">
+          <div class="homepage-content-header">
+            <h2 class="text-color">"Hello Culinary World!"</h2>
+            <h1 class="text-color">
+              PRISICILLA'S RESTAURANTS TRADE CONFERENCE
+            </h1>
+            <h3 class="text-color-heading">2022</h3>
+          </div>
+          <div class="header-paragraph">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et,
+              illo! Rem cupiditate nemo minima voluptate laboriosam deserunt.
+            </p>
+          </div>
+          <div class="date-location">
+            <h3 class="date light-black heading-big">
+              2022.02.16(FRI) ~ 30(SUN)
+            </h3>
+            <p class="location light-black heading-medium">
+              @Hillary Hotels Swinto, Fire Island
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main-program flex-column-center" id="main-program">
+      <h2 class="main-program-header light-grey heading-medium">
+        Program
+      </h2>
+      <hr class="divider-line text-center" />
+      <div class="program-items">
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-book-reader light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Lecture</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fab fa-accusoft light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Exhibition</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="far fa-comments light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Forum</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-code-branch light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Workshop</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-chart-line light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Ignite</h3>
+          <p class="item item-content light-grey">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            libero sit in necessitatibus, ad sequi?
+          </p>
+        </article>
+      </div>
+      <button type="button" name="join-program" class="join-btn">
+        Join Us
+      </button>
+      <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
+    </section>
+    <section class="featured-speakers flex-column-center" id="speakers">
+      <h2 class="speakers-header light-black heading-medium">
+        Featured Speakers
+      </h2>
+      <hr class="divider-line text-center" />
+      <div class="speakers-list"></div>
+    </section>
+    <section class="partners bg-light-black flex-column-center" id="partners">
+      <h2 class="partners-title light-grey heading-medium">Partners</h2><br><br><br>
+      <hr class="divider-line text-center" />
+      <ul class="partners-list flex-row-center">
+        <li class="partners-list-item">
+          <img class="list-item" src="./img/google2.png" alt="kfc"/>
+        </li>
+        <li class="partners-list-item">
+          <img class="list-item" src="./img/youtube1.webp" alt="burgerking" />
+        </li>
+        <li class="partners-list-item">
+          <img class="list-item" src="./img/logo1.png" alt="Restaurants"/>
+        </li>
+        <li class="partners-list-item">
+          <img class="list-item" src="./img/666.png" alt="Restaurants"/>
+        </li>
+        <li class="partners-list-item">
+          <img class="list-item" src="./img/555.png" alt="Restaurants"/>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer flex-column-center" id="contact">
+      <h3 class="contact light-black heading-medium">Contact</h3>
+      <hr class="divider-line text-center" />
+      <div class="flex-row-center contact-details">
+        <img src="./img/logo1.png" alt="priscilla's restauarants logo" class="priscillas-logo"/>
+        <div class="contact-info">
+          <p class="phone-number"><b>Phone:</b> 6435799643</p>
+          <p class="address">
+            Fire Island.
+            Raine Colloway
+            34220 Fire Island, California.
+          </p>
+        </div>
+      </div>
+      <p class="copyright"><i class="far fa-copyright"></i>2022. All rights reserved</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
 
