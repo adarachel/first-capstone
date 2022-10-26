@@ -56,31 +56,31 @@ const speakersButton = document.querySelector('.speakers-btn');
 
 function loadSpeakers() {
   speakers.forEach((speaker, index) => {
-  const speakerContainer = document.createElement('article');
-  speakerContainer.className = index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
-  featuredSpeakers.appendChild(speakerContainer);
+    const speakerContainer = document.createElement('article');
+    speakerContainer.className = index > 1 ? 'flex-row-center speakers-display' : 'flex-row-center';
+    featuredSpeakers.appendChild(speakerContainer);
 
-  const speakerImage = document.createElement('img');
+    const speakerImage = document.createElement('img');
     speakerImage.src = `${speaker.image}`;
     speakerImage.alt = `Image of ${speaker.name}`;
     speakerImage.className = 'speaker-image';
     speakerContainer.appendChild(speakerImage);
 
-  const speakerInfos = document.createElement('div');
+    const speakerInfos = document.createElement('div');
     speakerInfos.className = 'speaker-infos';
     speakerContainer.appendChild(speakerInfos);
 
-  const speakerName = document.createElement('h3');
+    const speakerName = document.createElement('h3');
     speakerName.className = 'light-black heading-medium speaker-heading';
     speakerName.textContent = `${speaker.name}`;
     speakerInfos.appendChild(speakerName);
 
-  const speakerOrganization = document.createElement('h4');
+    const speakerOrganization = document.createElement('h4');
     speakerOrganization.className = 'dark-orange';
     speakerOrganization.textContent = `${speaker.organization}`;
     speakerInfos.appendChild(speakerOrganization);
 
-  const speakerBackground = document.createElement('h4');
+    const speakerBackground = document.createElement('h4');
     speakerBackground.className = 'light-black';
     speakerBackground.textContent = `${speaker.background}`;
     speakerInfos.appendChild(speakerBackground);
