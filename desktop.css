@@ -1,383 +1,383 @@
 html {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  body {
-    max-width: 1400px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .header-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #272a31;
-    width: 100%;
-    height: 30px;
-    opacity: 0.9;
-  }
-  
-  .header-right-ul {
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 5%;
-  }
-  
-  .header-ul-item:hover {
-    color: #ec5242;
-    opacity: 6.5;
-  }
-  
-  nav {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-  }
+body {
+  max-width: 1400px;
+}
 
-  .menu-open {
-    display: none;
-  }
-  
-  .desktop-nav {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: #272a31;
-    padding: 5px 5%;
-  }
-  
-  .navbar-ul {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .desktop-nav-link {
-    color: #272a31;
-    font-weight: 600;
-  }
-  
-  .desktop-nav ul li {
-    margin: 0 1%;
-    white-space: nowrap;
-  }
-  
-  .desktop-nav-link:hover {
-    color: #ec5242;
-    opacity: 6.7;
-  }
-  
-  .site-logo:hover {
-    opacity: 0.7;
-  }
-  
-  .site-logo-img {
-    width: 100px;
-    height: 50px;
-    opacity: 5.8;
-  }
-  
-  /* SECTION ONE */
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #272a31;
+  width: 100%;
+  height: 30px;
+  opacity: 0.9;
+}
 
-  .homepage-content-header {
-    width: 80%;
-  }
-  
-  .homepage-content-header h2 {
-    font-size: 2.5rem;
-  }
-  
-  .homepage-content-header h1 {
-    font-size: 3.5rem;
-  }
-  
-  .text-color-heading {
-    font-size: 4.5rem;
-    margin-bottom: 5%;
-  }
-  
-  .homepage-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .header-paragraph {
-    border: solid #fff;
-    height: 5%;
-    width: 50%;
-    font-size: 1.25rem;
-    margin-right: 30%;
-    margin-top: 0;
-  }
-  
-  .date-location {
-    margin-top: 2%;
-    margin-right: 50%;
-    margin-bottom: 0;
-  }
-  
-  .header-img {
-    width: 80%;
-  }
-  
-  .header-img-rotate {
-    width: 80%;
-  }
-  
-  .date {
-    font-size: 2rem;
-  }
-  
-  .location {
-    font-size: 1.25rem;
-  }
+.header-right-ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+}
 
-  /* MAIN PROGRAM SECTION */
+.header-ul-item:hover {
+  color: #ec5242;
+  opacity: 6.5;
+}
 
-  .program-items {
-    opacity: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .program-item {
-    opacity: 0.8;
-    width: 19%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    flex-wrap: wrap;
-  }
-  
-  .item-icon {
-    width: auto;
-    margin: 20px 0;
-    color: #fff;
-  }
-  
-  .item-header {
-    width: auto;
-  }
-  
-  .item-content {
-    width: auto;
-    margin: 20px 0;
-    color: #fff;
-  }
-  
-  .join-btn {
-    display: none;
-  }
-  
-  .see-program {
-    display: block;
-    color: #fff;
-    font-size: 1.5rem;
-    margin-top: 5%;
-  }
-  
-  .see-program:hover {
-    cursor: pointer;
-    opacity: 0.5;
-  }
-  
-  /* SPEAKERS STYLING */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
 
-  .speakers-btn {
-    display: none;
-  }
-  
-  .speakers-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* PARTNERS SECTION */
+.menu-open {
+  display: none;
+}
 
-  .partners-title {
-    margin-top: 5%;
-  }
-  
-  .partners-list {
-    flex-wrap: nowrap;
-  }
-  
-  .list-item {
-    width: 150px;
-    height: 70px;
-  }
-  
-  /* FOOTER SECTION */
+.desktop-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #272a31;
+  padding: 5px 5%;
+}
 
-  .footer {
-    margin-top: 0;
-  }
-  
-  .contact-details {
-    justify-content: center;
-    margin-top: 1.5;
-  }
-  
-  .contact {
-    margin-top: 0;
-  }
-  
-  .copyright {
-    margin-top: 0;
-  }
-  
-  .priscillas-logo {
-    width: 130px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  
-  .contact-info {
-    margin-left: 0;
-  }
+.navbar-ul {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  /* ABOUT PAGE SECTION */
+.desktop-nav-link {
+  color: #272a31;
+  font-weight: 600;
+}
 
-  .divider-line {
-    width: 200px;
-    margin-top: 1%;
-    margin-bottom: 3%;
-  }
+.desktop-nav ul li {
+  margin: 0 1%;
+  white-space: nowrap;
+}
 
-  .full-divider-line {
-    border-width: 0;
-    height: 1px;
-    background-color: #272a31;
-    width: 100%;
-    opacity: 0.6;
-    margin: 5% 0;
-  }
+.desktop-nav-link:hover {
+  color: #ec5242;
+  opacity: 6.7;
+}
 
-  .divider-line-about {
-    border-width: 0;
-    height: 2px;
-    background-color: #ec5242;
-    width: 15%;
-    margin-bottom: 5%;
-    margin-top: 0;
-    opacity: 0.9;
-  }
+.site-logo:hover {
+  opacity: 0.7;
+}
 
-  .about-page {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
+.site-logo-img {
+  width: 100px;
+  height: 50px;
+  opacity: 5.8;
+}
 
-  .margin-top-big {
-    margin-top: 5%;
-  }
-  
-  .restaurant-img {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  
-  .about-page-details {
-    font-size: 1.25rem;
-  }
+/* SECTION ONE */
 
-  .header-paragraph-about {
-    background: #fff;
-    border: solid #fff;
-    height: 5%;
-    width: 50%;
-    font-size: 1.25rem;
-    margin-right: 0;
-    margin-top: 0;
-  }
+.homepage-content-header {
+  width: 80%;
+}
 
-  .date-location-about {
-    margin-top: 2%;
-    margin-right: 0;
-    margin-bottom: 0;
-  }
+.homepage-content-header h2 {
+  font-size: 2.5rem;
+}
 
-  .past-activities {
-    width: 100%;
-    margin: 0;
-  }
-  
-  .activities {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .past-activities-content {
-    margin-top: 0;
-  }
-  
-  .activity {
-    width: 40%;
-    font-size: 1.25rem;
-  }
-  
-  .activity-one {
-    width: 40%;
-    min-height: 300px;
-    background: url("./img/activity1.jfif");
-    background-size: cover;
-    position: relative;
-    opacity: 0.8;
-    margin: 5% 0;
-  }
-  
-  .activity-content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ec5242;
-    opacity: 0.8;
-    color: #fff;
-  }
-  
-  .activity-two {
-    width: 40%;
-    min-height: 300px;
-    background: url("./img/activity2.jpg");
-    background-size: cover;
-    position: relative;
-    opacity: 0.8;
-    margin: 5% 0;
-  }
+.homepage-content-header h1 {
+  font-size: 3.5rem;
+}
 
-  .restauarant-img {
-    width: 80%;
-  }
+.text-color-heading {
+  font-size: 4.5rem;
+  margin-bottom: 5%;
+}
 
-  .contact-line {
-    margin-bottom: 2%;
-  }
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .speakers-display {
-    display: flex;
-  }
+.header-paragraph {
+  border: solid #fff;
+  height: 5%;
+  width: 50%;
+  font-size: 1.25rem;
+  margin-right: 30%;
+  margin-top: 0;
+}
+
+.date-location {
+  margin-top: 2%;
+  margin-right: 50%;
+  margin-bottom: 0;
+}
+
+.header-img {
+  width: 80%;
+}
+
+.header-img-rotate {
+  width: 80%;
+}
+
+.date {
+  font-size: 2rem;
+}
+
+.location {
+  font-size: 1.25rem;
+}
+
+/* MAIN PROGRAM SECTION */
+
+.program-items {
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.program-item {
+  opacity: 0.8;
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.item-icon {
+  width: auto;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.item-header {
+  width: auto;
+}
+
+.item-content {
+  width: auto;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.join-btn {
+  display: none;
+}
+
+.see-program {
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+.see-program:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* SPEAKERS STYLING */
+
+.speakers-btn {
+  display: none;
+}
+
+.speakers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PARTNERS SECTION */
+
+.partners-title {
+  margin-top: 5%;
+}
+
+.partners-list {
+  flex-wrap: nowrap;
+}
+
+.list-item {
+  width: 150px;
+  height: 70px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  margin-top: 0;
+}
+
+.contact-details {
+  justify-content: center;
+  margin-top: 1.5;
+}
+
+.contact {
+  margin-top: 0;
+}
+
+.copyright {
+  margin-top: 0;
+}
+
+.priscillas-logo {
+  width: 130px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  margin-left: 0;
+}
+
+/* ABOUT PAGE SECTION */
+
+.divider-line {
+  width: 200px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.full-divider-line {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 5% 0;
+}
+
+.divider-line-about {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+  margin-bottom: 5%;
+  margin-top: 0;
+  opacity: 0.9;
+}
+
+.about-page {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.margin-top-big {
+  margin-top: 5%;
+}
+
+.restaurant-img {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.about-page-details {
+  font-size: 1.25rem;
+}
+
+.header-paragraph-about {
+  background: #fff;
+  border: solid #fff;
+  height: 5%;
+  width: 50%;
+  font-size: 1.25rem;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.date-location-about {
+  margin-top: 2%;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.past-activities {
+  width: 100%;
+  margin: 0;
+}
+
+.activities {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.past-activities-content {
+  margin-top: 0;
+}
+
+.activity {
+  width: 40%;
+  font-size: 1.25rem;
+}
+
+.activity-one {
+  width: 40%;
+  min-height: 300px;
+  background: url("./img/activity1.jfif");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.activity-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.activity-two {
+  width: 40%;
+  min-height: 300px;
+  background: url("./img/activity2.jpg");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.restauarant-img {
+  width: 80%;
+}
+
+.contact-line {
+  margin-bottom: 2%;
+}
+
+.speakers-display {
+  display: flex;
+}
