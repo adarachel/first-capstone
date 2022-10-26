@@ -10,11 +10,11 @@ It was created following the below template:
 - JAVASCRIPT
 
 ## Live Demo of Project:
-[Live Demo Link]()
+[Live Demo Link](https://adarachel.github.io/first-capstone/index.html)
 
 ## Video Presentaton:
 
-[Loom Video Link]()
+[Loom Video Link](https://www.loom.com/share/36e66129a274434fb93d7d956f472b6f)
 
 ## Author
 👤 **Ada Rachel**
