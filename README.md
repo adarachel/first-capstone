@@ -10,7 +10,7 @@ It was created following the below template:
 - JAVASCRIPT
 
 ## Live Demo of Project:
-[Live Demo Link]()
+[Live Demo Link](https://adarachel.github.io/first-capstone/index.html)
 
 ## Video Presentaton:
 
