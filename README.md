@@ -14,7 +14,7 @@ It was created following the below template:
 
 ## Video Presentaton:
 
-[Loom Video Link](https://adarachel.github.io/first-capstone/)
+[Loom Video Link](https://www.loom.com/share/36e66129a274434fb93d7d956f472b6f)
 
 ## Author
 👤 **Ada Rachel**
