@@ -1,132 +1,132 @@
 .text-center {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  @font-face {
-    font-family: "cocogoose";
-    src: url("./cocogoose/Cocogoose.ttf");
-  }
+@font-face {
+  font-family: "cocogoose";
+  src: url("./cocogoose/Cocogoose.ttf");
+}
 
-  @font-face {
-    font-family: "cocogoose-light";
-    src: url("./cocogoose/Cocogoose-light.ttf");
-  }
-  
-  .heading-small {
-    font-size: 1.25rem;
-    font-weight: 600;
-  }
+@font-face {
+  font-family: "cocogoose-light";
+  src: url("./cocogoose/Cocogoose-light.ttf");
+}
 
-  .heading-medium {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
+.heading-small {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 
-  .heading-big {
-    font-size: 1.75rem;
-    font-weight: 900;
-  }
+.heading-medium {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
-  .text-color {
-    background: url("./img/foodpattern4.webp");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #ec5242;
-  }
-  
-  .light-black {
-    color: #272a31;
-  }
-  
-  .dark-orange {
-    color: #ec5242;
-  }
-  
-  .light-grey {
-    color: #d3d3d3;
-  }
+.heading-big {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
 
-  .bg-light-black {
-    background: #272a31;
-  }
-  
-  .bg-dark-orange {
-    background: #ec5242;
-  }
-  
-  .bg-light-grey {
-    background: rgba(250, 247, 247, 0.829);
-  }
+.text-color {
+  background: url("./img/foodpattern4.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #ec5242;
+}
 
-  .page-container {
-    width: 100%;
-    padding: 5%;
-  }
+.light-black {
+  color: #272a31;
+}
 
-  .flex-row-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .flex-column-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.dark-orange {
+  color: #ec5242;
+}
 
-  .join-btn {
-    width: 300px;
-    height: 60px;
-    background-color: #ec5242;
-    color: #d3d3d3;
-    font-size: 1.25rem;
-    border-radius: 5px;
-  }
-  
-  .join-btn:hover {
-    opacity: 5.5;
-  }
+.light-grey {
+  color: #d3d3d3;
+}
 
-  .restauarant-img {
-    width: 100%;
-    margin-top: 50px;
-  }
+.bg-light-black {
+  background: #272a31;
+}
 
-  .divider-line {
-    border-width: 0;
-    height: 2px;
-    background-color: #ec5242;
-    width: 15%;
-    margin-bottom: 0;
-    margin-top: 15px;
-    opacity: 0.9;
-  }
-  
-  .full-divider-line {
-    border-width: 0;
-    height: 1px;
-    background-color: #272a31;
-    width: 100%;
-    opacity: 0.6;
-    margin: 5% 0;
-  }
+.bg-dark-orange {
+  background: #ec5242;
+}
 
-  .margin-top {
-    margin-top: 5%;
-  }
-  
-  .margin-top-big {
-    margin-top: 10%;
-  }
-  
-  .margin-bottom {
-    margin-bottom: 5%;
-  }
-  
-  .margin-vertical {
-    margin: 5% 0;
-  }
+.bg-light-grey {
+  background: rgba(250, 247, 247, 0.829);
+}
+
+.page-container {
+  width: 100%;
+  padding: 5%;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-btn {
+  width: 300px;
+  height: 60px;
+  background-color: #ec5242;
+  color: #d3d3d3;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.join-btn:hover {
+  opacity: 5.5;
+}
+
+.restauarant-img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.divider-line {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+  margin-bottom: 0;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+.full-divider-line {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 5% 0;
+}
+
+.margin-top {
+  margin-top: 5%;
+}
+
+.margin-top-big {
+  margin-top: 10%;
+}
+
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-vertical {
+  margin: 5% 0;
+}

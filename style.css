@@ -1,411 +1,411 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700;1,900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    font-family: 'Lato', sans-serif;
-    background-color: #fff;
-  }
-  
-  body {
-    width: 100%;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  button,
-  input[type="submit"],
-  input[type="reset"] {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-  }
-  
-  header {
-    width: 100%;
-  }
-  
-  .header-right {
-    display: none;
-  }
-  
-  nav {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-  }
-  
-  .nav-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    background-image: url("./img/foodpattern4.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.8;
-  }
-  
-  nav h2 {
-    font-family: "cocogoose-light", sans-serif;
-    letter-spacing: 1.5px;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    justify-self: center;
-    align-self: center;
-  }
-  
-  .hamburger-menu {
-    font-size: 30px;
-    font-weight: 900;
-    cursor: pointer;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    opacity: 0.98;
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  
-  .overlay-display {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #ec5242;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .overlay a:hover,
-  .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  .overlay .close-btn {
-    position: absolute;
-    top: 1.5rem;
-    right: 3rem;
-    font-size: 4rem;
-  }
-  
-  .desktop-nav {
-    display: none;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .page-container {
-    width: 100%;
-    position: relative;
-  }
-  
-  .homepage-content-header h2 {
-    width: 100%;
-    margin: 3% 0;
-  }
-  
-  .homepage-content-header h1 {
-    width: 100%;
-  }
-  
-  .page-container h1 {
-    font-family: "cocogoose", sans-serif;
-    font-size: 1.85rem;
-    letter-spacing: 1.5px;
-  }
-  
-  .text-color-heading {
-    color: #ec5242;
-    width: 100%;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 900;
-    font-size: 2.1rem;
-    margin-bottom: 15%;
-  }
-  
-  .header-paragraph {
-    border: 2px solid #fff;
-    background-color: whitesmoke;
-    padding: 1%;
-    line-height: 1.5rem;
-  }
-  
-  .homepage-content .text-center h1 {
-    margin-top: 5%;
-  }
-  
-  .homepage-content-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .header-img {
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    bottom: 0;
-    left: 0;
-    background-size: cover;
-  }
-  
-  .header-img-rotate {
-    transform: rotate(180deg);
-    top: 0;
-    right: 0;
-    position: absolute;
-    width: 100%;
-    z-index: -2;
-    background-size: cover;
-  }
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+}
 
-  .date-location {
-    margin: 10% 0;
-  }
+body {
+  width: 100%;
+}
 
-  .main-program {
-    background: url("./img/blackbg2.jpg");
-    width: 100%;
-    height: 100%;
-    padding: 5%;
-    opacity: 0.9;
-  }
-  
-  .program-item {
-    opacity: 0.7;
-    margin: 2% 0;
-    padding: 3%;
-    border-radius: 5px;
-  }
-  
-  .item-icon {
-    width: 12%;
-  }
-  
-  .item-header {
-    width: 28%;
-  }
-  
-  .item-content {
-    width: 60%;
-  }
-  
-  .join-btn {
-    margin: 5% 0;
-  }
-  
-  .see-program {
-    display: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  .speakers-header {
-    margin-top: 10%;
-  }
-  
-  .speaker-image {
-    width: 150px;
-    margin: 3%;
-    border-radius: 100%;
-  }
-  
-  .speakers-list {
-    opacity: 0.8;
-  }
-  
-  .speaker-heading {
-    margin-bottom: 2%;
-  }
-  
-  .speaker-infos {
-    width: 67%;
-    margin: 3%;
-    margin-left: 0;
-  }
-  
-  .speakers-btn {
-    width: 80%;
-    border: #272a31 solid 1px;
-    background-color: #fff;
-    color: #272a31;
-    margin: 5% 0;
-  }
-  
-  .down-arrow {
-    color: #ec5242;
-    margin: 0 5px;
-  }
-  
-  .speakers-display {
-    display: none;
-  }
+ul {
+  list-style-type: none;
+}
 
-  .past-activities {
-    margin: 5% 0;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .activities {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .past-activities-content {
-    width: 80%;
-    margin-top: 5%;
-    font-size: 1.1rem;
-  }
-  
-  .activity-one {
-    width: 80%;
-    min-height: 200px;
-    background: url("./img/activity1.jfif");
-    background-size: cover;
-    position: relative;
-    opacity: 0.8;
-    margin: 5% 0;
-  }
-  
-  .activity-content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ec5242;
-    opacity: 0.8;
-    color: #fff;
-  }
-  
-  .activity-two {
-    width: 80%;
-    min-height: 200px;
-    background: url("./img/activity2.jpg");
-    background-size: cover;
-    position: relative;
-    opacity: 0.8;
-    margin: 5% 0;
-  }
-  
-  .activities:hover {
-    opacity: 0.7;
-  }
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 
-  .about-page {
-    width: 100%;
-    margin-bottom: 10%;
-    margin-top: 5%;
-    opacity: 0.9;
-  }
-  
-  .restaurant-img {
-    width: 80%;
-    margin: 5%;
-  }
-  
-  .about-page-details {
-    margin: 0 5%;
-    padding: 3%;
-  }
+header {
+  width: 100%;
+}
 
-  .header-paragraph-about {
-    border: 2px solid #fff;
-    background-color: whitesmoke;
-    padding: 1%;
-    line-height: 1.5rem;
-  }
+.header-right {
+  display: none;
+}
 
-  /* PARTNERS SECTION */
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
 
-  .partners {
-    width: 100%;
-    opacity: 0.9;
-    margin: 5% 0;
-  }
-  
-  .partners-title {
-    margin-top: 10%;
-    margin-bottom: -4.5%;
-  }
-  
-  .partners-list {
-    flex-wrap: wrap;
-  }
-  
-  .partners-list-item {
-    margin: 5%;
-  }
-  
-  .partners-list-item:hover {
-    opacity: 0.7;
-  }
-  
-  .partners-list-item::marker {
-    color: #272a31;
-  }
-  
-  .list-item {
-    width: 80px;
-    height: 80px;
-  }
-  
-  /* FOOTER SECTION */
+.nav-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-image: url("./img/foodpattern4.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
 
-  .footer {
-    width: 100%;
-    margin: 5% 0;
-  }
-  
-  .contact {
-    margin-top: 5%;
-  }
-  
-  .priscillas-logo {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .contact-details {
-    width: 100%;
-    margin: 5% 0;
-    justify-content: space-around;
-  }
+nav h2 {
+  font-family: "cocogoose-light", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  justify-self: center;
+  align-self: center;
+}
+
+.hamburger-menu {
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 0.98;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-display {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ec5242;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 3rem;
+  font-size: 4rem;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.page-container {
+  width: 100%;
+  position: relative;
+}
+
+.homepage-content-header h2 {
+  width: 100%;
+  margin: 3% 0;
+}
+
+.homepage-content-header h1 {
+  width: 100%;
+}
+
+.page-container h1 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 1.85rem;
+  letter-spacing: 1.5px;
+}
+
+.text-color-heading {
+  color: #ec5242;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  font-size: 2.1rem;
+  margin-bottom: 15%;
+}
+
+.header-paragraph {
+  border: 2px solid #fff;
+  background-color: whitesmoke;
+  padding: 1%;
+  line-height: 1.5rem;
+}
+
+.homepage-content .text-center h1 {
+  margin-top: 5%;
+}
+
+.homepage-content-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.header-img-rotate {
+  transform: rotate(180deg);
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -2;
+  background-size: cover;
+}
+
+.date-location {
+  margin: 10% 0;
+}
+
+.main-program {
+  background: url("./img/blackbg2.jpg");
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  opacity: 0.9;
+}
+
+.program-item {
+  opacity: 0.7;
+  margin: 2% 0;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.item-icon {
+  width: 12%;
+}
+
+.item-header {
+  width: 28%;
+}
+
+.item-content {
+  width: 60%;
+}
+
+.join-btn {
+  margin: 5% 0;
+}
+
+.see-program {
+  display: none;
+}
+
+.speakers-header {
+  margin-top: 10%;
+}
+
+.speaker-image {
+  width: 150px;
+  margin: 3%;
+  border-radius: 100%;
+}
+
+.speakers-list {
+  opacity: 0.8;
+}
+
+.speaker-heading {
+  margin-bottom: 2%;
+}
+
+.speaker-infos {
+  width: 67%;
+  margin: 3%;
+  margin-left: 0;
+}
+
+.speakers-btn {
+  width: 80%;
+  border: #272a31 solid 1px;
+  background-color: #fff;
+  color: #272a31;
+  margin: 5% 0;
+}
+
+.down-arrow {
+  color: #ec5242;
+  margin: 0 5px;
+}
+
+.speakers-display {
+  display: none;
+}
+
+.past-activities {
+  margin: 5% 0;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activities {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-activities-content {
+  width: 80%;
+  margin-top: 5%;
+  font-size: 1.1rem;
+}
+
+.activity-one {
+  width: 80%;
+  min-height: 200px;
+  background: url("./img/activity1.jfif");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.activity-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.activity-two {
+  width: 80%;
+  min-height: 200px;
+  background: url("./img/activity2.jpg");
+  background-size: cover;
+  position: relative;
+  opacity: 0.8;
+  margin: 5% 0;
+}
+
+.activities:hover {
+  opacity: 0.7;
+}
+
+.about-page {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  opacity: 0.9;
+}
+
+.restaurant-img {
+  width: 80%;
+  margin: 5%;
+}
+
+.about-page-details {
+  margin: 0 5%;
+  padding: 3%;
+}
+
+.header-paragraph-about {
+  border: 2px solid #fff;
+  background-color: whitesmoke;
+  padding: 1%;
+  line-height: 1.5rem;
+}
+
+/* PARTNERS SECTION */
+
+.partners {
+  width: 100%;
+  opacity: 0.9;
+  margin: 5% 0;
+}
+
+.partners-title {
+  margin-top: 10%;
+  margin-bottom: -4.5%;
+}
+
+.partners-list {
+  flex-wrap: wrap;
+}
+
+.partners-list-item {
+  margin: 5%;
+}
+
+.partners-list-item:hover {
+  opacity: 0.7;
+}
+
+.partners-list-item::marker {
+  color: #272a31;
+}
+
+.list-item {
+  width: 80px;
+  height: 80px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.contact {
+  margin-top: 5%;
+}
+
+.priscillas-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.contact-details {
+  width: 100%;
+  margin: 5% 0;
+  justify-content: space-around;
+}
